@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background: #e3e3e3;
+    font-size: 20px;
+}
+input {
+    border: none;
+    padding: 7px;
+    font-size: 20px;
+}
+input:focus-visible {
+    outline: none;
+}
+input::placeholder {
+    opacity: 0.5;
+}
+input[type='checkbox'] {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
